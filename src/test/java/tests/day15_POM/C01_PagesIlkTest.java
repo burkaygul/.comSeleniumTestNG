@@ -5,7 +5,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
 import utilities.Driver;
-import utilities.ResuableMethods;
+import utilities.ReusableMethods;
+
 
 public class C01_PagesIlkTest {
 
