@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 import java.time.Duration;
 
@@ -21,7 +23,8 @@ public class P02 {
     - driver'i kapatın.
      */
 
-    static WebDriver driver;
+    /*
+        static WebDriver driver;
      @BeforeClass
     public static void setUp(){
          WebDriverManager.chromedriver().setup();
@@ -29,14 +32,34 @@ public class P02 {
          driver.manage().window().maximize();
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
      }
+     */
+
 
      @Test
      public void wisequarter(){
-
+         Driver.getDriver().get(ConfigReader.getProperty("wiseUrl"));
      }
 
-     @AfterClass
+     @Test (dependsOnMethods = "wisequarter")
+     public void youtube(){
+         Driver.getDriver().get(ConfigReader.getProperty("youtubeUrl"));
+     }
+
+     @Test (dependsOnMethods = "youtube")
+     public void amazon (){
+         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
+
+         Driver.closeDriver();
+     }
+
+
+
+
+     /*
+        @AfterClass
     public static void tearDown(){
          driver.close();
      }
+      */
+
 }

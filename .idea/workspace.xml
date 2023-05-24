@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68de4991-e193-41fa-b69b-8270e6cfde96" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day_17_xmlFiles_TestNGReports/C01_ResuableMethodsSwitchingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day17_xmlFiles_TestNGReports/C01_ResuableMethodsSwitchingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day_17_xmlFiles_TestNGReports/C01_ResuableMethodsSwitchingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Practice/P02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Practice/P02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Practice/P03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Practice/P03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Practice/P02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Practice/P02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Practice/P03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Practice/P03.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +61,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/burka/IdeaProjects/com.team113TestNG&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/burka/IdeaProjects/com.Team113Junit&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C04_DataProviderNegatifLoginTest">
+  <component name="RunManager" selected="TestNG.P03.sauceDemo1">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,40 +76,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_DataProvider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day18_TestNGReports_ParalelCalistirma.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day18_TestNGReports_ParalelCalistirma" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18_TestNGReports_ParalelCalistirma.C03_DataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day18_TestNGReports_ParalelCalistirma.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day18_TestNGReports_ParalelCalistirma" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18_TestNGReports_ParalelCalistirma.C03_DataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,20 +97,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/ParalelClassCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="P02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/ParalelClassCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.Practice.P02" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/RaporluClasslariTopluCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="P03" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/RaporluClasslariTopluCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.Practice.P03" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P03.sauceDemo1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.team113TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.Practice.P03" />
+      <option name="METHOD_NAME" value="sauceDemo1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P03.sauceDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.team113TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.Practice.P03" />
+      <option name="METHOD_NAME" value="sauceDemo2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.P03.sauceDemo1" />
+        <item itemvalue="TestNG.P03" />
+        <item itemvalue="TestNG.P03.sauceDemo2" />
+        <item itemvalue="TestNG.P02" />
         <item itemvalue="TestNG.C04_DataProviderNegatifLoginTest" />
-        <item itemvalue="TestNG.C03_DataProvider" />
-        <item itemvalue="TestNG.C03_DataProvider (1)" />
-        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/ParalelClassCalistirma.xml" />
-        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/RaporluClasslariTopluCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>
