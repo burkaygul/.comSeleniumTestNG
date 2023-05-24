@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68de4991-e193-41fa-b69b-8270e6cfde96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14_TestNGFramework/C01_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14_TestNGFramework/C01_Priority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14_TestNGFramework/C04_DriverIlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14_TestNGFramework/C04_DriverIlkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C01_PagesIlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C01_PagesIlkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C02_qualitydemyLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C02_qualitydemyLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ResuableMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day14_TestNGFramework/C01_Priority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day14_TestNGFramework/C01_Priority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day14_TestNGFramework/C04_DriverIlkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day14_TestNGFramework/C04_DriverIlkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day15_POM/C01_PagesIlkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day15_POM/C01_PagesIlkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day15_POM/C02_qualitydemyLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day15_POM/C02_qualitydemyLoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ResuableMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlFiles/IstenenMethodlariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/IstenenMethodlariCalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day_17_xmlFiles_TestNGReports/C01_ResuableMethodsSwitchingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day17_xmlFiles_TestNGReports/C01_ResuableMethodsSwitchingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day_17_xmlFiles_TestNGReports/C01_ResuableMethodsSwitchingWindow.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +67,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C01_ResuableMethodsSwitchingWindow">
+  <component name="RunManager" selected="TestNG.C04_DataProviderNegatifLoginTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,16 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_ResuableMethodsSwitchingWindow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_DataProvider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day_17_xmlFiles_TestNGReports.*" />
+          <option name="PATTERN" value="tests.day18_TestNGReports_ParalelCalistirma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day_17_xmlFiles_TestNGReports" />
-      <option name="MAIN_CLASS_NAME" value="tests.day_17_xmlFiles_TestNGReports.C01_ResuableMethodsSwitchingWindow" />
+      <option name="PACKAGE_NAME" value="tests.day18_TestNGReports_ParalelCalistirma" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18_TestNGReports_ParalelCalistirma.C03_DataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,9 +96,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/IstenenGruplariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/IstenenGruplariCalistirma.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day18_TestNGReports_ParalelCalistirma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day18_TestNGReports_ParalelCalistirma" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18_TestNGReports_ParalelCalistirma.C03_DataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_DataProviderNegatifLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.team113TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day18_TestNGReports_ParalelCalistirma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day18_TestNGReports_ParalelCalistirma" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18_TestNGReports_ParalelCalistirma.C04_DataProviderNegatifLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/ParalelClassCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.team113TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/ParalelClassCalistirma.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -117,19 +140,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/IstenenMethodlariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/RaporluClasslariTopluCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/IstenenMethodlariCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/TumTestleriCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.team113TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/TumTestleriCalistirma.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/RaporluClasslariTopluCalistirma.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -139,10 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C01_ResuableMethodsSwitchingWindow" />
-        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/TumTestleriCalistirma.xml" />
-        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/IstenenGruplariCalistirma.xml" />
-        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/IstenenMethodlariCalistirma.xml" />
+        <item itemvalue="TestNG.C04_DataProviderNegatifLoginTest" />
+        <item itemvalue="TestNG.C03_DataProvider" />
+        <item itemvalue="TestNG.C03_DataProvider (1)" />
+        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/ParalelClassCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/RaporluClasslariTopluCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>

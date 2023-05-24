@@ -1,4 +1,4 @@
-package tests.day_17_xmlFiles_TestNGReports;
+package tests.day17_xmlFiles_TestNGReports;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
