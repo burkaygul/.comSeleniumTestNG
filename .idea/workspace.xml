@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="68de4991-e193-41fa-b69b-8270e6cfde96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Practice/P02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Practice/P02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Practice/P03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Practice/P03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Practice/P02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Practice/P02.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Practice/P03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Practice/P03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.P03.sauceDemo1">
+  <component name="RunManager" selected="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/crossBrowserParalelCalistirma.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,7 +76,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_DataProviderNegatifLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Priority" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.team113TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day14_TestNGFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day14_TestNGFramework" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14_TestNGFramework.C01_Priority" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_RaporluAmazonSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +102,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day18_TestNGReports_ParalelCalistirma" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18_TestNGReports_ParalelCalistirma.C04_DataProviderNegatifLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18_TestNGReports_ParalelCalistirma.C01_RaporluAmazonSearch" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -97,34 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/crossBrowserParalelCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.Practice.P02" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/crossBrowserParalelCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/crossBrowserSiraliCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.Practice.P03" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/crossBrowserSiraliCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,31 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P03.sauceDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.Practice.P03" />
-      <option name="METHOD_NAME" value="sauceDemo2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/crossBrowserParalelCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/burka/IdeaProjects/com.team113TestNG/xmlFiles/crossBrowserSiraliCalistirma.xml" />
+        <item itemvalue="TestNG.C01_Priority" />
+        <item itemvalue="TestNG.C01_RaporluAmazonSearch" />
         <item itemvalue="TestNG.P03.sauceDemo1" />
-        <item itemvalue="TestNG.P03" />
-        <item itemvalue="TestNG.P03.sauceDemo2" />
-        <item itemvalue="TestNG.P02" />
-        <item itemvalue="TestNG.C04_DataProviderNegatifLoginTest" />
       </list>
     </recent_temporary>
   </component>
